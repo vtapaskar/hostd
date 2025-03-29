@@ -1,0 +1,14 @@
+{
+    "processes": [
+        {
+            "name": "nginx",
+            "restart": true,
+            "maxRetries": 3
+        },
+        {
+            "name": "redis-server",
+            "restart": true,
+            "maxRetries": 3
+        }
+    ]
+}
